@@ -10,7 +10,8 @@ class DishDetail extends Component {
           <li className="mb-2">{comment.comment}</li>
           <li>
             -- {comment.author}{" "}
-            {new Date(comment.date).toLocaleDateString("en-US", options)}
+            {/* {new Date(comment.date).toLocaleDateString("en-US", options)} */}
+            {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)), options)}
           </li>
         </ul>
       ));
