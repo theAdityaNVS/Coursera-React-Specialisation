@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function RenderDish({dish}) {
@@ -61,10 +61,6 @@ const DishDetail = (props) => {
       return (
           <div className="container">
               <div className="row">
-                  <Breadcrumb>
-                      <BreadcrumbItem> <Link to='home'>Home</Link> </BreadcrumbItem>
-                      <BreadcrumbItem active>Menu</BreadcrumbItem>
-                  </Breadcrumb>
                   <div className="col-12">
                       <h3>{props.dish.name}</h3>
                       <hr />
