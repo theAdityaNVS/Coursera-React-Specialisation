@@ -79,8 +79,7 @@ class Contact extends Component {
                             required: 'Required. ',
                             minLength: 'Must be greater than 2 characters. ',
                             maxLength: 'Must be 15 characters or less. '
-                          }}
-                   />
+                          }} />
                 </Col>
               </Row>
               <Row className="form-group">
@@ -93,8 +92,7 @@ class Contact extends Component {
                             required: 'Required. ',
                             minLength: 'Must be greater than 2 characters. ',
                             maxLength: 'Must be 15 characters or less. '
-                          }}
-                   />
+                          }} />
                 </Col>
               </Row>
               <Row className="form-group">
@@ -108,8 +106,7 @@ class Contact extends Component {
                             minLength: 'Must be greater than 2 numbers. ',
                             maxLength: 'Must be 15 numbers or less. ',
                             isNumber: 'Must be a number. '
-                          }}
-                  />
+                          }} />
                 </Col>
               </Row>
               <Row className="form-group">
@@ -121,8 +118,7 @@ class Contact extends Component {
                           messages={{
                             required: 'Required. ',
                             validEmail: 'Invalid Email Address. '
-                          }}
-                  />
+                          }} />
                 </Col>
               </Row>
               <Row className="form-group">
